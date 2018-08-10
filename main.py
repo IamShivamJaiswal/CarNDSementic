@@ -154,8 +154,8 @@ tests.test_train_nn(train_nn)
 def run():
     num_classes = 2
     image_shape = (160, 576)
-    data_dir = './drive/TrackSementic/CarND-Semantic-Segmentation-master/CarND-Semantic-Segmentation-master/data_road'
-    runs_dir = './drive/TrackSementic/CarND-Semantic-Segmentation-master/CarND-Semantic-Segmentation-master/runs'
+    data_dir = './CarNDSementic/data_road'
+    runs_dir = './CarNDSementic/runs'
     #tests.test_for_kitti_dataset(data_dir)
 
     # Download pretrained vgg model
