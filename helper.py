@@ -82,7 +82,7 @@ def gen_batch_function(data_folder, image_shape):
             images = []
             gt_images = []
             for image_file in image_paths[batch_i:batch_i+batch_size]:
-                print(image_file)
+                #print(image_file)
                 gt_image_file = label_paths[os.path.basename(image_file)]
 
                 image = scipy.misc.imresize(scipy.misc.imread(image_file), image_shape)
