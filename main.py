@@ -1,6 +1,6 @@
 import os.path
 import sys
-sys.path.insert(0, './drive/TrackSementic/CarND-Semantic-Segmentation-master/CarND-Semantic-Segmentation-master/')
+#sys.path.insert(0, './drive/TrackSementic/CarND-Semantic-Segmentation-master/CarND-Semantic-Segmentation-master/')
 import tensorflow as tf
 import helper
 import warnings
