@@ -75,7 +75,7 @@ def gen_batch_function(data_folder, image_shape):
         label_paths = {
             os.path.basename(path)[:os.path.basename(path).rfind('_')]+'.jpg': path
             for path in glob(os.path.join(data_folder,'Mask_Track', '*_mask.jpg'))}
-        background_color = np.array([255, 255, 255])
+        background_color = np.array([0, 0, 0])
 
         random.shuffle(image_paths)
         for batch_i in range(0, len(image_paths), batch_size):
